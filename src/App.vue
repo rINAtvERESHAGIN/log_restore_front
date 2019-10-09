@@ -1,21 +1,21 @@
 <template>
 <div>
-
-  <TestComponent></TestComponent>
+<Main></Main>
+<!--  <TestComponent></TestComponent>-->
 </div>
 
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
-// import Log from './components/Log'
+
 import TestComponent from "./components/TestComponent";
+import Main from "./components/modules/Main";
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    // Log,
-    TestComponent
+
+    TestComponent,
+    Main,
   },
   data: () => ({
     //

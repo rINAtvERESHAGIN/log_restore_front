@@ -1,4 +1,5 @@
 <template>
+
     <v-app id="sandbox">
         <v-navigation-drawer
                 v-model="primaryDrawer.model"
@@ -38,6 +39,8 @@
         >
             <span class="px-4">&copy; {{ new Date().getFullYear() }}</span>
         </v-footer>
+
+
     </v-app>
 </template>
 
